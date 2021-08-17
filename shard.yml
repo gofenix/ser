@@ -1,0 +1,13 @@
+name: ser
+version: 0.1.0
+
+authors:
+  - zhuzhenfeng.code <zhuzhenfeng.code@bytedance.com>
+
+targets:
+  ser:
+    main: src/ser.cr
+
+crystal: 1.1.1
+
+license: MIT
