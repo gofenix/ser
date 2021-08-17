@@ -1,18 +1,33 @@
 # ser
 
-TODO: Write a description here
+a simple http server as replacement of python -m http.server
 
 ## Installation
 
-TODO: Write installation instructions here
-
 ## Usage
 
-TODO: Write usage instructions here
+```
+$ ser -h
+ser is a simple http server.
 
-## Development
+    -v, --version                    Show version
+    -h, --help                       Show help
+    -p PORT, --port=PORT             On port
+    -a ADDR, --address=ADDR          On ip address
 
-TODO: Write development instructions here
+examples:
+ser
+ser .
+serve . directory using port 8080
+ser -p 8088
+serve . directory using port 8088
+ser ..
+serve .. directory using port 8080
+ser -p 8088 ..
+serve .. directory using port 8088
+ser -addr 0.0.0.0 -p 9999
+serve . directory using address 0.0.0.0:9999
+```
 
 ## Contributing
 
