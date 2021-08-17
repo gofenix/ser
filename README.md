@@ -25,7 +25,7 @@ ser ..
     serve .. directory using port 8080
 ser -p 8088 ..
     serve .. directory using port 8088
-ser -addr 0.0.0.0 -p 9999
+ser -a 0.0.0.0 -p 9999
     serve . directory using address 0.0.0.0:9999
 ```
 
